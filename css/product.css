@@ -1,0 +1,39 @@
+*{
+    background: black;
+    color:rgb(65, 187, 28) ;
+    font-family: cursive;
+}
+
+img{
+    height: 600px;
+    width:700px;
+}
+
+a{
+     text-decoration: none;
+     color: rgb(28, 236, 73);
+     display: inline-block;/*yükseklik ve gelinişlik verebilmek için kullanılır.*/
+     margin-bottom: 40px;
+     background: rgb(9, 10, 9);
+     border-radius: 8px solid rgb(28, 236, 73);
+     padding: 8px;
+     font-size: 25px;
+     margin-left:20px
+
+}
+
+a:hover{
+     background: rgb(28, 236, 73);
+     color: black;
+     border-radius:10px;
+}
+
+.button{
+        font-size: 30px;
+}
+
+.button:hover{
+    font-size:35px;
+    background: rgb(28, 236, 73);
+    color: black;
+}

@@ -1,0 +1,37 @@
+*{
+  background: black;    
+  color: rgb(42, 235, 35); 
+}
+h1{
+    text-align: center;/*ortala*/
+    font-size: 35px;
+  
+}
+
+input{
+
+    font-size: 30px;
+    position: relative;/*relative - Normal olması gereken pozisyona göre konum belirlemek*/
+
+    right: -1220px;
+    bottom: -600px;
+
+   
+}
+input:hover{
+    background: rgb(56, 238, 56);
+    color:black;
+}
+#geridön a{
+    display:inline-block;
+    text-decoration:none;
+    font-size: 30px;
+    background:rgb(36, 190, 36);
+    margin-top: 570px;
+    margin-left: 10px;
+    padding:5px;
+    border-radius: 10px;
+    color: black;
+
+
+}

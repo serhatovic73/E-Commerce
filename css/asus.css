@@ -1,0 +1,39 @@
+*{
+    background: black;
+    color: rgb(45, 221, 45);
+}
+
+img{
+    width: 550px;/*genişlik*/
+    height: 500px;/*uzunluk */
+}
+
+a{
+    display:block;/*a etiketi normalde satır içi elemandır böyle yaparak onu blok eleman yaptık*/
+    line-height: 30px;
+    text-transform: uppercase;/*tüm yazıları büyük harfle göster*/
+    text-decoration:none;
+    padding-left: 10px;
+
+}
+p{
+    display: inline;/*blok elemanları satır içi yapmak içindir.*/
+    padding-bottom: 5px;
+}
+
+a+p{/*a'dan sonra gelen p'yi seçer*/
+     text-decoration:line-through;/*üzerini çiz*/
+}  
+
+#geridön a{
+    background: rgb(9, 201, 25);
+    padding:3px;
+    color: black;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top:20px;
+    text-transform:none;
+    font-size:22px;
+    margin-right: 10px;
+    
+}

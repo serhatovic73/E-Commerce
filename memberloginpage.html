@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/login.css"/>
+  <title>Member Login Page</title>
+</head>
+<body>
+  <form action="gırıs.aspx" method="get">
+       <table class="login">
+                   <h1 class="bilgi">Giriş Yapmak İçin Bilgilerinizi Giriniz</h1>
+              <tr> 
+                   <td><label for="mail">E-mail adresiniz:</label></td><!--label input etkiketini td etiketine bağlamak için kullandık. for kısmına id girerek.-->
+                   <td><input type="text" id="mail" value="Lütfen mail adresinizi giriniz!" onclick="javascript:this.value=''" name="email"/></td>
+                   <!-- type= tip , id=kimlik , value= kutucuk içinde verilen bilgi  onclick= üzerine tıklandıgında -->
+              </tr>
+              <tr>
+                  <td><label for="şifre">Şifreniz:</label></td> 
+                  <td><input type="password" id="şifre" value="Lütfen şifrenizi giriniz!" onclick="javascript:this.value=''" name="parola"></td> 
+              </tr class="class">
+              <td align="right" class="giriş"><input type="submit" value="Giriş"></td> 
+              <td><input type="reset" value="temizle"></td>
+       </table>
+         <br />
+  
+       <a href="mailto:serhatovic73@hotmail.com">Bizimle iletişime geçin.</a> <br/> <br/>
+       <a href="memberregisrationpage.html">Kayıt Ol </a>
+   </form>    
+      
+ 
+</body>
+</html>

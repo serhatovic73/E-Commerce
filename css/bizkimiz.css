@@ -1,0 +1,14 @@
+*{
+    background: black;
+    color:rgb(6, 250, 6);
+}
+li{
+    font-size: 20px;
+    
+
+}
+
+ol{
+    line-height: 3; /*satırlar arası boşluk için*/
+
+}

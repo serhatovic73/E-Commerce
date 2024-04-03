@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Member Registration Page </title>
+ <link rel="stylesheet" href="css/register.css">
+ 
+</head>
+<body>
+      <form action="kaydol.aspx" method="get">
+        
+         <table>     
+                        <h1>Kayıt olmak için Bilgileri Giriniz</h1>
+                   <tr>
+                         <td><label for="ad">Ad:</label></td>
+                         <td><input type="text" id="ad" value="Lütfen İsminizi Giriniz" onclick="javascript:this.value=''" name="ad"></td>
+                  </tr>
+                  <tr>
+                       <td><label for="soyad">Soyad:</label></td>
+                       <td><input type="text" id="soyad" value="Lütfen Soyadınızı Giriniz" onclick="javascript:this.value=''" name="soyad"></td>
+                 </tr>
+                 <tr>
+                       <td><label for="email">E-mail Adresiniz:</label></td>
+                       <td><input type="text" id="email" value="Lütfen Mail Adresini Giriniz" onclick="javascript:this.value=''" name="mail"></td>
+                 </tr>
+                 <tr>
+                       <td><label for="parola">Parolanız:</label></td>
+                       <td><input type="password" id="parola" value="Lütfen Şifrenizi Giriniz" onclick="javascript:this.value=''" name="parola"></td>
+                 </tr>
+                 <tr>
+                       <td><label for="parolatekrar">Parolanız(Tekrar):</label></td>
+                       <td><input type="password" id="parolatekrar" value="Lütfen Şifrenizi Giriniz" onclick="javascript:this.value=''" name="parola"></td>
+                 </tr>
+                 <tr>
+                       <td class="cinsiyet">
+                            Cinsiyet: <input type="radio" name="cinsiyet" value="kadın">Kadın
+                                      <input type="radio" name="cinsiyet" value="erkek">Erkek
+                        </td>
+                 </tr>
+                        <td align="right" class="giriş">  <input type="submit" value="Giriş"></td>
+                        <td><input type="reset" value="temizle"></td> <br/>
+                
+         </table>
+         
+                 <a href="mailto:serhatovic73@hotmail.com">Bizimle iletişime geçin.</a> <br/> <br/>
+                 <a href="memberloginpage.html">Giriş yap</a>
+                         
+
+       </form>
+      
+ 
+</body>
+</html>
